@@ -24,7 +24,7 @@ Building examples and templates demonstrating modern development practices:
 
 ## 🌐 Portfolio
 
-Check out my work at [jussiohag.github.io](https://jussiohag.github.io)
+Check out my work at [jussiohag.github.io](https://jussiohag.github.io/portfolio)
 
 ## 📫 Let's Connect
 
