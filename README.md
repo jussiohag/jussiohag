@@ -1,16 +1,18 @@
 # Jussi Hagström 👋
 
-**Full-Stack Developer | IT Consultant | Available for Immediate Work**
+**Full-Stack Developer | Technical Consultant | Certified PM & Scrum Master**
 
 📍 Helsinki, Finland | 💼 25+ years in tech | 🟢 Open to opportunities
 
 ## About Me
 
-Experienced developer and IT consultant with deep technical background in:
-- **Development:** Python, Ruby/Rails, JavaScript, PHP, C++, Java
-- **DevOps & Infrastructure:** Docker, Linux administration, cloud platforms
-- **Web Development:** Full-stack (LAMP, Node.js, React, Django)
-- **Project Management:** Agile, Scrum Master certified
+Full-stack developer and technical consultant with 25+ years of experience in web development, WordPress implementation, SEO optimization, and digital marketing. Proven track record delivering custom web solutions for diverse clients. Background at Nokia, Tieto/Tietoevry, and Fortum.
+
+- **Web & CMS:** WordPress (expert), PHP/MySQL, React, Node.js, TypeScript, HTML5/CSS3
+- **Backend & Databases:** Python, Ruby on Rails, C++, Java, MongoDB, PostgreSQL
+- **DevOps & Infrastructure:** Linux (LAMP), Docker, CI/CD, AWS, DigitalOcean
+- **SEO & Marketing:** Google Analytics, technical SEO audits, social media marketing
+- **Project Management:** Certified PM & Scrum Master, Agile methodologies
 
 ## 🔧 Current Focus
 
@@ -19,6 +21,10 @@ Building examples and templates demonstrating modern development practices:
 - Containerization (Docker)
 - Python automation
 - Web application architecture
+
+## 🌐 Portfolio
+
+Check out my work at [jussiohag.github.io](https://jussiohag.github.io)
 
 ## 📫 Let's Connect
 
