@@ -17,9 +17,9 @@ Technical consultant and project manager with 25+ years across telecom, web deve
 
 ## Current Focus
 
-- Python automation and job search tooling
+- Python automation and data tooling
 - CI/CD pipelines (GitHub Actions)
-- Email archive analysis and data extraction
+- MCP (Model Context Protocol) integrations
 
 ## Let's Connect
 
