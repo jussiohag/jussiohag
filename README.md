@@ -1,38 +1,29 @@
-# Jussi Hagström 👋
+# Jussi Hagström
 
-**Full-Stack Developer | Technical Consultant | Certified PM & Scrum Master**
+**Project Manager & Technical Consultant | Scrum Master | Web & Platform Development**
 
-📍 Helsinki, Finland | 💼 25+ years in tech | 🟢 Open to opportunities
+Helsinki, Finland | 25+ years in tech | Open to opportunities
 
 ## About Me
 
-Full-stack developer and technical consultant with 25+ years of experience in web development, WordPress implementation, SEO optimization, and digital marketing. Proven track record delivering custom web solutions for diverse clients. Background at Nokia, Tieto/Tietoevry, and Fortum.
+Technical consultant and project manager with 25+ years across telecom, web development, and SaaS. Background at Nokia, TietoEnator, Finitec/Logica, and Fortum. CTO of Ohjelmasuomi Oy (2014–2020), building a local services marketplace from WordPress MVP to full SaaS platform. 10+ WordPress client sites delivered as freelance consultant (2011–2024).
 
-- **Web & CMS:** WordPress (expert), PHP/MySQL, React, Node.js, TypeScript, HTML5/CSS3
-- **Backend & Databases:** Python, Ruby on Rails, C++, Java, MongoDB, PostgreSQL
-- **DevOps & Infrastructure:** Linux (LAMP), Docker, CI/CD, AWS, DigitalOcean
-- **SEO & Marketing:** Google Analytics, technical SEO audits, social media marketing
-- **Project Management:** Certified PM & Scrum Master, Agile methodologies
+- **Web & CMS:** WordPress (10+ client sites), PHP/MySQL, WooCommerce, React, HTML5/CSS3
+- **Backend & Automation:** Python, Ruby on Rails, FastAPI
+- **DevOps & Infrastructure:** Linux (LAMP), Docker, CI/CD (GitHub Actions, Hudson/Jenkins), Cloudflare, VPS management
+- **Analytics:** Google Analytics, basic technical SEO
+- **Project Management:** TietoEnator Certified PM (2007), Certified Scrum Master (2008), Agile/Scrum
+- **Earlier experience:** C++, Java, Rational Robot, TestComplete
 
-## 🔧 Current Focus
+## Current Focus
 
-Building examples and templates demonstrating modern development practices:
-- Infrastructure as Code (Terraform)
-- Containerization (Docker)
-- Python automation
-- Web application architecture
+- Python automation and job search tooling
+- CI/CD pipelines (GitHub Actions)
+- Email archive analysis and data extraction
 
-## 🌐 Portfolio
-
-Check out my work at [jussiohag.github.io/portfolio](https://jussiohag.github.io/portfolio)
-
-## 📫 Let's Connect
+## Let's Connect
 
 - **Email:** jussi@hagstrom.uk
 - **LinkedIn:** [linkedin.com/in/jussihagstrom](https://linkedin.com/in/jussihagstrom)
 - **Location:** Helsinki, Finland
-- **Status:** 🟢 Available for contracts, consulting, and full-time positions
-
----
-
-💡 *Seeking software development or technical consulting work in Helsinki area*
+- **Status:** Available for contracts, consulting, and full-time positions
