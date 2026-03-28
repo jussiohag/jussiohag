@@ -4,7 +4,7 @@
 
 Helsinki, Finland
 
-Senior consultant bridging engineering and project management. Started in Nokia embedded telecom, progressed through enterprise CI/CD at Tieto, test automation at Fortum, and global firmware delivery at Nokia, then startup CTO and a decade of independent consulting.
+Senior consultant bridging engineering and project management. Background in embedded telecom, enterprise CI/CD, test automation, and global software delivery. Former startup CTO and independent consultant.
 
 ## Projects
 
