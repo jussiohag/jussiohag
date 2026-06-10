@@ -3,3 +3,15 @@
 BACKLOG.md
 ROADMAP.md
 SPRINT.md
+private/
+
+.env
+.env.*
+!.env.example
+!.env.sample
+.claude/
+.playwright-mcp/
+__pycache__/
+test-results/
+.bundle/
+.agents/
