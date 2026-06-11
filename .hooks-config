@@ -2,4 +2,3 @@ skip_branch_protection=true
 skip_qa=true
 skip_push_tests=true
 skip_readme_badges=true
-skip_push_secrets=true
