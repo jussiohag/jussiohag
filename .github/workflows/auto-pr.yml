@@ -1,0 +1,36 @@
+name: Auto PR
+# Creates a draft PR when pushing to a non-main branch
+# Deploy: deploy-ci.sh --with-auto-pr
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - master
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  auto-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create draft PR if none exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ github.ref_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          existing=$(gh pr list --repo "$REPO" --head "$BRANCH" --state open --json number -q '.[0].number')
+          if [ -n "$existing" ]; then
+            echo "PR #$existing already exists for $BRANCH"
+            exit 0
+          fi
+          gh pr create \
+            --repo "$REPO" \
+            --head "$BRANCH" \
+            --base main \
+            --title "$BRANCH" \
+            --body "Auto-created draft PR for branch \`$BRANCH\`." \
+            --draft
