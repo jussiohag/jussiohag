@@ -1,29 +1,14 @@
-# AI tooling
-CLAUDE.md
-AGENTS.md
-.claude/
-.agents/
+# DENY ALL — this is a public profile repo.
+# Only explicitly allowed files can be tracked.
+# To add a new file: add a !filename line below, then git add.
+*
 
-# Hooks config
-.hooks-config
-.hooks-allowlist
-.githooks/
+# Allowed files
+!README.md
+!SECURITY.md
+!.gitignore
+!commitlint.config.js
 
-# PM files
-BACKLOG.md
-ROADMAP.md
-SPRINT.md
-private/
-
-# Environment
-.env
-.env.*
-!.env.example
-!.env.sample
-
-# Build/cache
-.playwright-mcp/
-__pycache__/
-test-results/
-.bundle/
-node_modules/
+# Allowed directories (must un-ignore dir then contents)
+!.github/
+!.github/**
