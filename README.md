@@ -1,5 +1,7 @@
 # Jussi Hagstr&ouml;m
 
+![CI](https://github.com/jussiohag/jussiohag/actions/workflows/ci.yml/badge.svg)
+
 **Project Manager & Technical Consultant | 25+ years in software**
 
 Helsinki, Finland
