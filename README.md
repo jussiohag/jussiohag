@@ -12,7 +12,7 @@ Senior consultant bridging engineering and project management. Background in emb
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| [Portfolio](https://portfolio-ten-pi-y63bspilp1.vercel.app) | Project showcase | React, Vite |
+| [Portfolio](https://jussiohag.vercel.app) | Project showcase | React, Vite |
 | [PIP-BOY 3000](https://pipboy-nu.vercel.app) | Retro PM dashboard | React, Vite |
 | [JobFinder](https://github.com/jussiohag/jobfinder) | Job matching with TF-IDF scoring | Python, FastAPI, React |
 | [LinkedIn Tool](https://github.com/jussiohag/linkedin-tool) | CV-to-LinkedIn sync and gap detection | Python, Playwright |
@@ -27,5 +27,5 @@ Senior consultant bridging engineering and project management. Background in emb
 
 ## Links
 
-- [Portfolio](https://portfolio-ten-pi-y63bspilp1.vercel.app)
+- [Portfolio](https://jussiohag.vercel.app)
 - [LinkedIn](https://linkedin.com/in/jussihagstrom)
