@@ -1,0 +1,60 @@
+name: File allowlist check
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check-allowlist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for unauthorized files
+        run: |
+          ALLOWED=(
+            ".github/CODEOWNERS"
+            ".github/PULL_REQUEST_TEMPLATE.md"
+            ".github/dependabot.yml"
+            ".github/workflows/auto-pr.yml"
+            ".github/workflows/ci.yml"
+            ".github/workflows/dependabot-automerge.yml"
+            ".github/workflows/dependency-review.yml"
+            ".github/workflows/file-allowlist.yml"
+            ".gitignore"
+            "README.md"
+            "SECURITY.md"
+            "commitlint.config.js"
+          )
+
+          VIOLATIONS=()
+          while IFS= read -r file; do
+            found=false
+            for allowed in "${ALLOWED[@]}"; do
+              if [[ "$file" == "$allowed" ]]; then
+                found=true
+                break
+              fi
+            done
+            if [[ "$found" == "false" ]]; then
+              VIOLATIONS+=("$file")
+            fi
+          done < <(git ls-files)
+
+          if [[ ${#VIOLATIONS[@]} -gt 0 ]]; then
+            echo "::error::Unauthorized files detected in repo:"
+            for v in "${VIOLATIONS[@]}"; do
+              echo "  - $v"
+            done
+            echo ""
+            echo "This is a public profile repo. Only allowlisted files are permitted."
+            echo "If you need to add a file, update the ALLOWED list in .github/workflows/file-allowlist.yml"
+            exit 1
+          fi
+
+          echo "All tracked files are on the allowlist."
