@@ -26,6 +26,8 @@ jobs:
             ".github/workflows/dependabot-automerge.yml"
             ".github/workflows/dependency-review.yml"
             ".github/workflows/file-allowlist.yml"
+            ".github/workflows/pr-hygiene.yml"
+            ".github/workflows/pr-title.yml"
             ".gitignore"
             "README.md"
             "SECURITY.md"
