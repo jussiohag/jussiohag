@@ -12,3 +12,9 @@
 # Allowed directories (must un-ignore dir then contents)
 !.github/
 !.github/**
+private/
+
+.env
+.env.*
+!.env.example
+!.env.sample

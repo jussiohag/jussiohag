@@ -1,31 +1,43 @@
 # Jussi Hagstr&ouml;m
 
-![CI](https://github.com/jussiohag/jussiohag/actions/workflows/ci.yml/badge.svg)
+**AI &amp; platform architect · Helsinki, Finland**
 
-**Project Manager & Technical Consultant | 25+ years in software**
+I build agent systems and the infrastructure they run on. 25 years in software across
+enterprise CI/CD platforms, global software delivery, and a founding CTO role. Since 2024
+hands-on with AI engineering, working on multi-agent orchestration, RAG on AWS, and agentic
+developer tooling.
 
-Helsinki, Finland
+[Portfolio](https://jussiohag.vercel.app) · [LinkedIn](https://linkedin.com/in/jussihagstrom)
 
-Senior consultant bridging engineering and project management. Background in embedded telecom, enterprise CI/CD, test automation, and global software delivery. Former startup CTO and independent consultant.
+## Selected work
 
-## Projects
+| Project | What it is | Stack |
+|---------|-----------|-------|
+| [AWS architecture demos](https://github.com/jussiohag/aws-projects) | Four production-shaped patterns deployed to `eu-north-1`. Data lake with Iceberg schema evolution, two-AZ Fargate service with no NAT Gateway, RAG over Bedrock, CloudFront static hosting. Infrastructure as code end to end. | CDK (Python), Bedrock, Glue, Athena, Fargate, DynamoDB |
+| [Portfolio](https://jussiohag.vercel.app) | Project showcase and case studies | React, Vite |
+| [PIP-BOY 3000](https://pipboy-nu.vercel.app) | Retro terminal dashboard, Fallout-styled | React, Vite |
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [Portfolio](https://jussiohag.vercel.app) | Project showcase | React, Vite |
-| [PIP-BOY 3000](https://pipboy-nu.vercel.app) | Retro PM dashboard | React, Vite |
-| [JobFinder](https://github.com/jussiohag/jobfinder) | Job matching with TF-IDF scoring | Python, FastAPI, React |
-| [LinkedIn Tool](https://github.com/jussiohag/linkedin-tool) | CV-to-LinkedIn sync and gap detection | Python, Playwright |
-| [FormFiller](https://github.com/jussiohag/formfiller) | LinkedIn Easy Apply auto-filler | React, JavaScript |
+Not public, but part of the daily work. A multi-agent orchestrator that dispatches parallel
+AI coding sessions with structured output validation and independent test verification, and
+a browser automation tool that fills multi-step application forms across a dozen ATS
+platforms.
 
-## Tech
+## Stack
 
-**Languages:** Python, JavaScript, PHP, C++, Java, Ruby, Bash
-**Web:** React, WordPress, HTML/CSS, REST APIs
-**Infrastructure:** Docker, Linux/LAMP, CI/CD (GitHub Actions, Jenkins), Git
-**PM & Process:** Jira, Confluence, Agile/Scrum (CSM), stakeholder management
+**AI and agents** Multi-agent orchestration, RAG, evaluation harnesses, MCP, prompt and
+context engineering
 
-## Links
+**Cloud** AWS (CDK, Lambda, Bedrock, Fargate, S3, Glue, Athena, CloudFront), Docker, Linux
 
-- [Portfolio](https://jussiohag.vercel.app)
-- [LinkedIn](https://linkedin.com/in/jussihagstrom)
+**Code** Python, TypeScript, JavaScript, React, Bash
+
+**Delivery** CI/CD (GitHub Actions, GitLab CI, Jenkins), test automation, technical program
+management, Scrum (CSM)
+
+## Background
+
+MSc Computer Science, University of Helsinki. Started as an engineer, spent the middle of
+the career running platform and delivery programs for telecom and enterprise clients, then
+founded and ran a company as CTO. Now back on the technical side, building with AI.
+
+Open to architect and technical lead roles in Helsinki or remote.
